@@ -244,7 +244,7 @@ Using flags in conjunction with patterns allows for more advanced searching capa
   
    **Example Regex**
 
-     When you use a character class like [aeo], it represents a set of characters, and any one of those characters can match.
+ When you use a character class like [aeo], it represents a set of characters, and any one of those characters can match.
   
    ````
    let reg = /H[aeo]llo/;
@@ -324,17 +324,16 @@ Using flags in conjunction with patterns allows for more advanced searching capa
 
  They also call it by “word boundary”. This is one of the anchor like the caret (^) and the dollar sign ($). The word boundary match is zero-length.
 
-    The characteristics of word boundaries:
+  The characteristics of word boundaries:
 
-    * Before the first character in a string if the first character is a word character.
-    * After the last character in a string if the last character is a word character.
-    * Between two characters in a string if one is a word character and the other is not.
+ * Before the first character in a string if the first character is a word character.
+ * After the last character in a string if the last character is a word character.
+ * Between two characters in a string if one is a word character and the other is not.
   
   **Example Regex**
 
   ````
   console.log('Hello, JS!'.match(/\bJS\b/)); // true
-
   ````
 
 ### Back-references
