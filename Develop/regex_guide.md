@@ -122,7 +122,7 @@ console.log(reg.test(str3)); // false
 ````
 
 ### OR Operator
- * **The vertical bar `|` **
+ * **The vertical bar `|`**
 
    It allows you to express a choice between two options. It acts as an OR operator, indicating that either of the options can match.
 
