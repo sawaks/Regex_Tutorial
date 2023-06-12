@@ -1,10 +1,8 @@
 # Regular Expressions Guide - How to use Regex? 
 
-This content shows you what is regex and how to use regex for bigginers of regex.
+This content shows you what is regex and how to use regex for beginners of regex.
 
 ## Summary
-
-Briefly summarize the regex you will be describing and what you will explain. Include a code snippet of the regex. Replace this text with your summary.
 
 Regular expressions, often abbreviated as regex, are a method used to match and manipulate patterns of characters within a string. They are composed of a combination of characters that form a pattern and optional flags. 
 
